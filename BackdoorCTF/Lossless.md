@@ -10,15 +10,15 @@ http://static.beast.sdslabs.co/static/LOSSLESS/encrypted.png
 <p>Pertama kita mencari perbedaan ke-2 gambar pada <a href="https://futureboy.us/stegano/compinput.html">stegodiff</a></p>
 <p> Gambar 1</p>
 <p align="center">
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/original.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/original.png">
 </p>
 <p> Gambar 2</p>
 <p align="center">
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/encrypted.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/encrypted.png">
 </p>
 <p> Hasil Perbedaan gambar</p>
 <p align="center">
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/diff.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/diff.png">
 </p>
 <p>Disana terdapat 343 black dan blue pixel diarea sudut kiri atas, jika kita hitung sesuai column disana terdapat 343 / jumlah column.
 <b>343 / 49 = 7</b> yang artinya terdapat 49 string ascii</p> 
