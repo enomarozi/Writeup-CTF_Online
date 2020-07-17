@@ -5,7 +5,7 @@
 </b><h3>Solution</h3></b>
 <p>Buka file dengan sonic-visualizer dan add spectogram <b>Tab Layer --> Add Spectogram</b></p>
 <p align='center'>
-<img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/Your%20old%20friend%20Orloge%20Simard.jpg">
+<img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/Your%20old%20friend%20Orloge%20Simard.jpg">
 </p>
 <p>Pada spectogram terdapat encoding morse terbalik, reverse code morse dan decode</p>
 
