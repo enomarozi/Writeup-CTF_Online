@@ -531,7 +531,7 @@ class=dtdText>241
 <pre>8 44 33 0 333 555 2 4 0 444 7777 0 7777 44 2 2 5 6 0 666 333 0 33 7 222 3 44 99 44 6 222 2 77 9</pre>
 <p>Decode DTMF ke ASCII sesuai pada gambar</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/dtmf.gif">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/dtmf.gif">
 </p>
 
 ```python
