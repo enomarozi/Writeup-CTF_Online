@@ -7,7 +7,7 @@ http://static.beast.sdslabs.co/static/noob/boolean
 <h3><b>Solution</b></h3>
 <p>Decompile program dengan ghidra, periksa pada fungsu check, disana terdapat operasi xor terhadap list hexadesimal</p>
 <p align="center">
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/boolean.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/boolean.jpg">
 </p>
 <p>Eksekusi sesuai operasi tersebut pada python</p>
 
