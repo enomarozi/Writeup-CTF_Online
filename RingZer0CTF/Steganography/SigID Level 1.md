@@ -5,10 +5,10 @@
 <h3><b>Solution</b></h3>
 <p>Diberikan 1 file audio.ogg, lihat spektogram pada audio pada <b>Tab Layer --> Add Spectogram</b> atau (Shift + G)</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/Sig%20ID%201_1.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/Sig%20ID%201_1.png">
 </p>
-<p>Ganti setting spectogram untuk memperjelas gambar QR-Code</br><img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/SigID%20Level%2012.jpg"></p>
-<p>dan Hasil</br><img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/SigID%20Level%2011.jpg"></p>
+<p>Ganti setting spectogram untuk memperjelas gambar QR-Code</br><img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/SigID%20Level%2012.jpg"></p>
+<p>dan Hasil</br><img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/SigID%20Level%2011.jpg"></p>
 <p>Decode QR dengan aplikasi mobile atau pada <a href="https://zxing.org/w/decode">website</a></p>
 <h3><b>Flag</b></h3>
 <pre>
