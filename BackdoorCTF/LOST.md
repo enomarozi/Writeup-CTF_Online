@@ -7,7 +7,7 @@ Help him recover it <a href="http://hack.bckdr.in:17016/">here</a>
 <h3><b>Solution</b></h3>
 <p>Lihat source code (CTRL + U) pada halaman, disana dikatakan terdapat direktori flag.php</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/LOST.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/LOST.jpg">
 </p>
 <p>akses direktori tersebut http://hack.bckdr.in:17016/flag.php maka ditampilkan pesan <b>You really taught that it would be so simple! Awesome! Try more!</b></p>
 <p>Tetapi jika diperhatikan lagi dari statment windows console pada source code itu merupakan request POST, dan bukan GET, karena default request ke URL itu adalah 
