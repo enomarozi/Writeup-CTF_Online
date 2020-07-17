@@ -4,7 +4,7 @@ We heard that there is something hidden in this <a href="https://2018shell.picoc
 </pre>
 </b><h3>Solution</h3></b>
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/nowYouDont.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/nowYouDont.png">
 </p>
 <p>Gunakan tools stegsolve, lihat pada shift red plane 1, tetapi itu terlalu simple</p>
 <p>Kita bisa lihat seluruh nilai RGB dengan opencv-python pada image itu hanya terbagi 2 nilai, yaitu [146,32,32] dan [145,32,32], 
@@ -30,7 +30,7 @@ cv2.imwrite('solve_youdont.png',img)
 ```
 <p>Hasilnya</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/now%20you%20don.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/now%20you%20don.png">
 </p>
 </b><h3>Flag</h3></b>
 <pre>
