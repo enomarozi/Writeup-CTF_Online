@@ -23,7 +23,7 @@ print(''.join(a))
 ```
 <p>set semua raw bytes ke tool bless dan save dengan ekstensi png</p>
 <p align="center">
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/Stego_solve2.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/Stego_solve2.png">
 </p>
 <h3><b>Flag</h3></b>
 <pre>
