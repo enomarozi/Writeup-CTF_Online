@@ -5,7 +5,7 @@
 </b><h3>Solution</h3></b>
 <p>Diberikan 1 file capture wireshark, dan setelah dianalisa semua capture berupa USB keyboard</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/Sniff%20my%20girl.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/Sniff%20my%20girl.jpg">
 </p>
 <p>Select salah satu packet yang length-nya 72, copy Field-name Leafover Capture Data dan paste pada field edit name column, Lalu select seluruh packet length 72, Eksport semuanya ke file text pada 
 Jendela File --> Eksport Packet Dissections --> As PlainText --> beri nama dan Save</p>
