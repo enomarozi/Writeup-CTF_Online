@@ -8,7 +8,7 @@ See if you can still find it: <a href="http://static.beast.sdslabs.co/static/HID
 <p>Pertama saya decompile file, dan disana terdapat beberapa fungsi pertama saya perhatikan fungsi main(),
 disana hanya ada fungsi print. lanjut ke fungsi print_flag(), disana terdapat banyak operasi yang saya tidak tau apa eksekusinya</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/Hidden%20Flag%20-%20Medium.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/Hidden%20Flag%20-%20Medium.jpg">
 </p>
 <p>Dan, karena fungsi main() tidak terkait dengan fungsi print_flag(), maka langsung saja jalankan tools gdb untuk break fungsi main(), dan compile --> run fungsi print_flag()</p>
 
