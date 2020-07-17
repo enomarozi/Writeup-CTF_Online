@@ -9,7 +9,7 @@ Can you do it too?
 <h3><b>Solution</b></h3>
 <p>Ekstrak file, maka didapatkan file PNG corrupt. Perbaiki corrupt pada header 52 4F 46 4C menjadi 89 50 4E 47</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/final.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/final.png">
 </p>
 <p>Gunakan zsteg untuk medapatkan flag pada color space BGR LSB</p>
 
