@@ -5,11 +5,11 @@
 </b><h3>Solution</h3></b>
 <p>Lihat pada shift Red Plane 1 dengan tool Stegsolve, disudut kiri bawah terdapat QR-code</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/Missing%20Pieces.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/Missing%20Pieces.jpg">
 </p>
 <p>Lebih jelasnya</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/Missing%20Pieces1.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/Missing%20Pieces1.jpg">
 </p>
 <p>Decode QR-code pada <a href="https://zxing.org/w/decode.jspx">website</a> online</p>
 </b><h3>Flag</h3></b>
