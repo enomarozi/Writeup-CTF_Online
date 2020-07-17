@@ -48,7 +48,7 @@ flip = cv2.flip(r_img,1)
 cv2.imwrite("Solve_cat.jpg",flip)
 ```
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/Solve_cat.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/Solve_cat.jpg">
 </p>
 <h3><b>Flag</h3></b>
 <pre>
