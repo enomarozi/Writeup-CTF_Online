@@ -13,7 +13,7 @@ Archive:  flag.zip
 root@Python:/home/venom/Downloads# eog flag.jpg 
 ```
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/Forensics%20Warmup%201.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/Forensics%20Warmup%201.jpg">
 </p>
 </b><h3>Flag</h3></b>
 <pre>
