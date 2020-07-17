@@ -6,7 +6,7 @@ n00b hid secret data in this image. Help me recover it.
 </pre>
 <h3><b>Solution</b></h3>
 <p align="center">
-    <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/davinci.jpg">
+    <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/davinci.jpg">
 </p>
 <p>Kita diberikan 1 file jpg, analisa seluruh raw bytes file dengan perintah string, disana terdapat <b>flag.txt</b> dan <b>password is monalisa</b>, ekstrak file image dengan foremost, 
 dan ektrak file zip dengan password yang sudah didapatkan</p>
