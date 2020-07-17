@@ -5,7 +5,7 @@
 </b><h3>Solution</h3></b>
 <p>Buka file audio dengan sonic-visualizer dan add spectogram pada <b>Tab Layer --> Add Spectogram</b> atau (Shift + G)</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/A%20ghost%20sound.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/A%20ghost%20sound.jpg">
 </p>
 </b><h3>Flag</h3></b>
 <pre>
