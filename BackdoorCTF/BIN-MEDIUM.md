@@ -6,7 +6,7 @@ He hides his second flag in <a href="http://static.beast.sdslabs.co/static/BIN-M
 
 <h3><b>Solution</b></h3>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/BIN-MEDIUM.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/BIN-MEDIUM.jpg">
 </p>
 <p>Lakukan decompiler dengan tool ghidra, lihat pada fungsi main(), disana terdapat list array yang akan mencetak string dengan panjang 0x40 atau 64 bytes,
 yang bisa dipastikan itu berupa flag(sha256) karena panjangan sha256 = 64 bytes<p>
