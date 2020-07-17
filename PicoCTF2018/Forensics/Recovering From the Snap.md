@@ -33,7 +33,7 @@ root@Python:/home/venom/Downloads/output# cd jpg/
 root@Python:/home/venom/Downloads/output/jpg# eog *
 ```
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/Recovering%20From%20the%20Snap.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/Recovering%20From%20the%20Snap.jpg">
 </p>
 </b><h3>Flag</h3></b>
 <pre>
