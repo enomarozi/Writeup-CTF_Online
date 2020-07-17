@@ -14,7 +14,7 @@ venom@Python:~$ qsstv
 ```
 <p>Dan hasilnya
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/Moon%20Sound_solve.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/Moon%20Sound_solve.png">
 </p>
 
 <h3><b>Flag</b></h3>
