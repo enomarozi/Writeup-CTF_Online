@@ -7,7 +7,7 @@ Find and Submit SHA-256 of the flag obtained from <a href="http://static.beast.s
 <h3><b>Solution</h3></b>
 <p>Didapatkan sebuah image png</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/sdslabs.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/sdslabs.png">
 </p>
 <p>gunakan tool zsteg pada terminal dan reverse text</p>
 
