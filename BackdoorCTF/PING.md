@@ -25,11 +25,11 @@ print(dat_solve)
 </pre>
 <p>Salin semua hexa dan paste pada blank bless dan simpan dengan file format PNG</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/PING.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/PING.jpg">
 </p>
 <p>Open File</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/ping_solve.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/ping_solve.png">
 </p>
 <h3><b>Flag</b></h3>
 <pre>
