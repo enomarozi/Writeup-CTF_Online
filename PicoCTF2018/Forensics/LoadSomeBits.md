@@ -5,11 +5,11 @@ You can also find the file in /problems/loadsomebits_1_5ccf71e5726692c713405bb17
 </pre>
 </b><h3>Solution</h3></b>
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/LoadSomeBits1.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/LoadSomeBits1.jpg">
 </p>
 <p>Binary flag terdapat pada LSB (Least significant bits) image pada posisi 0x36 hingga 0x1ee</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/LoadSomeBits.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/LoadSomeBits.jpg">
 </p>
 
 ```python
