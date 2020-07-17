@@ -8,7 +8,7 @@ I made this challenge to annoy him :p
 <h3><b>Solution</b></h3>
 <p>Decompile program dengan ghidra tool, lihat pada fungsu main() program, disana terdapat statment mengembalikan nilai True jika string bernilai sama</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/BabyWinRev.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/BabyWinRev.jpg">
 </p>
 <p>Ambil seluruh string pada statment, maka menjadi <b>w1nd0w5_15_b4d</b></p>
 <h3><b>Flag</b></h3>
