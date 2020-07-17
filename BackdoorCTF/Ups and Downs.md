@@ -9,7 +9,7 @@ The flag must be wrapped in usual format CTF{flag received}
 <h3><b>Solution</b></h3>
 <p>Buka file audio.wav dengan audacity, maka ditampilkan amplitudo ups dan downs</p>
 <p align="center">
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/Ups%20and%20Downs.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/Ups%20and%20Downs.jpg">
 </p>
 </p>Kita anggap seluruh ampitudo itu binary, ups = 1, dan downs = 0</p>
 <pre>
