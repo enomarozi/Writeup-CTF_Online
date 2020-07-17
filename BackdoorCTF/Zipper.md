@@ -6,7 +6,7 @@ Help these gentlemen with their zips
 </pre>
 <h3><b>Solution</b></h3>
 <p align='center'>
-<img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/JoJo1.jpg">
+<img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/JoJo1.jpg">
 </p>
 <p>Flag berada di 2 tempat, meskipun flagnya sama, pertama eksekusi perintah string dan grep pada file</p>
 
