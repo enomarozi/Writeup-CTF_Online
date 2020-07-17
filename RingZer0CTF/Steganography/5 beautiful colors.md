@@ -6,11 +6,11 @@
 <p>Cari image original sesuai soal dengan google image search, disini saya mendapatkan imagenya walaupun beda size</p>
 <p>Image Original</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/Real_image.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/Real_image.png">
 </p>
 <p>Image Fake(challenge)</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/41250d2f058fcf724ecef0ee6e92ef10.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/41250d2f058fcf724ecef0ee6e92ef10.png">
 </p>
 <p>Perbedaan dari kedua gambar yaitu pada matrix disudut kanan bawah, dan jika dicetak RGB pada masing-masing matrik kecuali warna putih yaitu</p>
 <pre>
