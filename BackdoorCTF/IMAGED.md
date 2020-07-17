@@ -7,11 +7,11 @@ Kindly investigate and tell us the SHA256 of the name of this organization.
 </pre>
 <h3><b>Solution</h3></b>
 <p align="center">
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/image.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/image.png">
 </p>
 <p>Buka file dengan stegsolve, <b>Klik Tab Analyse --> Stereogram Solver</b> dan perhatikan seluruh offset, lebih jelasnya offset ke 93</p>
 <p align="center">
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/IMAGED.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/IMAGED.jpg">
 </p>
 <h3><b>Flag</h3></b>
 <pre>
