@@ -7,7 +7,7 @@ Remember, grep is your friend.
 </b><h3>Solution</h3></b>
 <p>Eksekusi perintah grep dengan option -R pada terminal server</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/grep%202.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/grep%202.jpg">
 </p>
 </b><h3>Flag</h3></b>
 <pre>
