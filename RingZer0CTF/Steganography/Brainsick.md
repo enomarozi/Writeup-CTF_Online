@@ -35,7 +35,7 @@ root@Python:/home/venom/Downloads/output/rar# eog flag.gif
 
 ```
 <p align='center'>
-  <img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Steganography/Image/flag.gif">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/flag.gif">
 </p>
 </b><h3>Flag</h3></b>
 <pre>
