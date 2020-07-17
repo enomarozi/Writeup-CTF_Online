@@ -9,7 +9,7 @@ Flag = CTF{some_string}
 <h3><b>Solution</b></h3>
 <p>Decompile program dengan tool hidra, maka didapatkan string yang memungkinkan mencetak ascii yang terdapat pada fungsi main() program</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/DIG-IT.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/DIG-IT.jpg">
 </p>
 <p>Cetak semua string ke ascii</p>
 
