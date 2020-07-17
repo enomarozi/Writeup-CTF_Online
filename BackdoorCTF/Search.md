@@ -10,7 +10,7 @@ root@Python:/home/venom/Downloads# mv search search.jpg
 root@Python:/home/venom/Downloads# eog search.jpg 
 ```
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/search.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/search.jpg">
 </p>
 <p>Decode image QR-code tersebut</p>
 
