@@ -7,11 +7,11 @@ Have this meme- https://imgur.com/cXkN4y3
 <h3><b>Solution</b></h3>
 <p>diberikan file image PNG</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/cena.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/cena.png">
 </p>
 <p>Check dengan tool stegsolve pada shift red plane 4</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/John%20Cena.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/John%20Cena.jpg">
 </p>
 <h3><b>Flag</b></h3>
 <pre>
