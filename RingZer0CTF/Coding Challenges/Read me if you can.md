@@ -1,6 +1,6 @@
 <h1><b>Read me if you can</b></h1>
 <p align='center'>
-  <img src="https://github.com/enomarozi/RingZer0CTF/blob/master/Coding%20Challenges/Image/image.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/image.png">
 </p>
 <h3><b>Solution</b></h3>
 <p>Kita diminta untuk membaca string pada captcha image, dan requests ke link https://ringzer0ctf.com/challenges/17/[Your_string], dalam waktu 2 detik</p>
