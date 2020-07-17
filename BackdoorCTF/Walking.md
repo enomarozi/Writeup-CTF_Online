@@ -6,7 +6,7 @@ http://static.beast.sdslabs.co/static/noob/bing.jpg
 </pre>
 <h3><b>Solution</b></h3>
 <p align='center'>
-    <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/bing.jpg">
+    <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/bing.jpg">
 </p>
 <p>Periksa file dengan binwalk, maka didalam file terdapat file Zip. Lanjut, ekstrak file dengan foremost dan read file flag.txt pada file Zip</p>
 
