@@ -53,7 +53,7 @@ print(alll)
 ```
 <p>Salin semua output program ke blank new file pada tool bless tepatnya pada jendela Hex-Dump, dan simpan ke format PNG dan hasilnya</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/xor%20me%20senpai.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/xor%20me%20senpai.png">
 </p>
 <h3><b>Flag</b></h3>
 <pre>
