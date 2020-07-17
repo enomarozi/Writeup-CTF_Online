@@ -5,7 +5,7 @@ You can also find the file in /problems/truly-an-artist_4_cdd9e325cf9bacd265b98a
 </pre>
 </b><h3>Solution</h3></b>
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/2018.png">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/2018.png">
 </p>
 <p>Eksekusi perintah exiftool dan grep pada file</p>
 
