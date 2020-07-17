@@ -5,7 +5,7 @@ http://static.beast.sdslabs.co/static/DEBUG/debug32
 </pre>
 <h3><b>Solution</b></h3>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/Debug.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/Debug.jpg">
 </p>
 <p>Decompile file dengan ghidra. Karena filenya type stripped jadi kita tidak bisa melihat nama fungsi asli programnya. 
 Dan disana terdapat print flag yang terdapat pada fungsi FUN_0804849b. dan juga beberapa operasi yang berkemungkinan mencetak suatu string</p>
