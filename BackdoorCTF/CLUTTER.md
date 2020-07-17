@@ -6,7 +6,7 @@ Help him find the flag. Submit SHA-256 of the flag obtained.
 </pre>
 <h3><b>Solution</b></h3>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/CLUTTER.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/CLUTTER.jpg">
 </p>
 <p>Sesuai yang ditampilkan wireshark disana ada banyak packet capture, dan sebagian capture meupakan protokol HTTP, Eksport seluruh protokol HTTP</p>
 <b><p>Tab File --> Export Objects --> HTTP --> Save as --> Select Directori --> OK</b></p>
