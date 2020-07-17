@@ -4,7 +4,7 @@ Stego-Saurus hid a message for you in this <a href="https://2018shell.picoctf.co
 </pre>
 </b><h3>Solution</h3></b>
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/husky.png" width=900>
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/husky.png" width=900>
 </p>
 <p>Gunakan tool zsteg pada file dan grep</p>
 
