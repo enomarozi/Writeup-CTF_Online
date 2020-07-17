@@ -19,11 +19,11 @@ debugfs: Bad magic number in super-block while trying to open ext-super-magic.im
 <p>Ganti value pada index 1080-1081 menjadi 0x53 0xef dengan hex-editor</p>
 <p>Sebelum diganti</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/Ext%20Super%20Magic2.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/Ext%20Super%20Magic2.jpg">
 </p>
 <p>Sesudah diganti</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/Ext%20Super%20Magic1.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/Ext%20Super%20Magic1.jpg">
 </p>
 <p>Identifikasi file kembali, dan jika sudah fix. ekstrak file dengan binwalk dan buka file image flag.jpg</p>
 
@@ -40,7 +40,7 @@ root@Python:/home/venom/Downloads# cd _ext-super-magic.img.extracted/ext-root/
 root@Python:/home/venom/Downloads/_ext-super-magic.img.extracted/ext-root# eog flag.jpg 
 ```
 <p align='center'>
-  <img src="https://github.com/enomarozi/PicoCTF2018/blob/master/Images/flag.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/PicoCTF2018/Forensics/Images/flag.jpg">
 </p>
 </b><h3>Flag</h3></b>
 <pre>
