@@ -12,11 +12,11 @@ you already have a hint(not in the other flags)
 <p>Diberikan 2 file image PNG</p>
 <p>File image-1</p>
 <p align='center'>
-<img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/My%20TV%20ded.png">
+<img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/My%20TV%20ded.png">
 </p>
 <p>File image-2</p>
 <p align='center'>
-<img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/My%20TV%20ded1.png">
+<img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/My%20TV%20ded1.png">
 </p>
 <p>xor RGB image-1 dan image-2 dengan tool stegsolve, atau dengan script dibawah ini</p>
 
@@ -33,7 +33,7 @@ cv2.waitKey(0)
 ```
 <p>Hasil xor RGB</p>
 <p align='center'>
-<img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/MyTVdad_solve.bmp">
+<img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/MyTVdad_solve.bmp">
 </p>
 <h3><b>Flag</b></h3>
 <pre>
