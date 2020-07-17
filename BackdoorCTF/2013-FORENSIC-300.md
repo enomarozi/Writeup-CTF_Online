@@ -11,12 +11,12 @@ Find the hidden passphrase, the flag is the SHA-256 of the MD5 of the passphrase
 </pre>
 <h3><b>Solution</b></h3>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/2013-FORENSIC-300.jpg">
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/2013-FORENSIC-300.jpg">
 </p>
 <p>Perhatikan amplitudo gelombang, disana terdapat 2 perbedaan amplitudo yaitu</p>
 
-<p>1.<img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/2013-FORENSIC-300_1.jpg"></p>
-<p>2.<img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/2013-FORENSIC-300_2.jpg"></p>
+<p>1.<img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/2013-FORENSIC-300_1.jpg"></p>
+<p>2.<img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/2013-FORENSIC-300_2.jpg"></p>
 <p> Pada gambar pertama itu melambangkan binary 0, dan gambar kedua binary 1, lalu salin semua binary disetiap amplitudo maka didapatkan 
 <b>011000100110000101101011011001000110111101110010</b>, Terakhir decode seluruh binary ke text</p>
 
