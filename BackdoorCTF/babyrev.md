@@ -10,11 +10,11 @@ HInt 2: https://en.wikipedia.org/wiki/XOR_cipher
 <p>Decompiler file dengan ghidra, maka terdapat string dan key untuk operasi xor sesuai pada hint 2</p>
 <p>String encoding</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/babyrev.jpg" width=900>
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/babyrev.jpg" width=900>
 </p>
 <p>Key xor</p>
 <p align='center'>
-  <img src="https://github.com/enomarozi/BackdoorCTF_Writeup/blob/master/Images/babyrev1.jpg" width=900>
+  <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/BackdoorCTF/Images/babyrev1.jpg" width=900>
 </p>
 
 ```python
