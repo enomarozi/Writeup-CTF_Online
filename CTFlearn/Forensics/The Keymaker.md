@@ -60,6 +60,29 @@ root@Python:/home/venom/Downloads# cat flag
 CTFlearn{Ne0.TheMatrix}        
 root@Python:/home/venom/Downloads# 
 ```
+<p>Atau dengan script python dibawah</p>
+
+```python
+import base64
+from Crypto.Cipher import AES
+import hashlib
+
+msg = "mmtaSHhAsK9pLMepyFDl37UTXQT0CMltZk7+4Kaa1svo5vqb6JuczUqQGFJYiycY"
+Key = "000c03010002110311003f00f9766bfc44beda8f3f5c031b92cb0e92d6bdc952"
+IV = "0800be00c803011100021101031101ff"
+
+key_dec = bytes.fromhex(Key)
+IV = bytes.fromhex(IV)
+encryption = base64.b64decode(msg)
+cipher = AES.new(key_dec, AES.MODE_CBC, IV)
+decrypt = cipher.decrypt(encryption)
+print(decrypt)
+
+```
+<p>Hasil Program</p>
+<pre>
+b'CTFlearn{Ne0.TheMatrix}        \n\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10'
+</pre>
 </b><h3>Flag</h3></b>
 <pre>
 CTFlearn{Ne0.TheMatrix}    
