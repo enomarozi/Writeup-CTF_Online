@@ -120,17 +120,16 @@ root@Python:/home/venom/Downloads/_ShahOfGimli.jpg.extracted# cd _20517.extracte
 root@Python:/home/venom/Downloads/_ShahOfGimli.jpg.extracted/_20517.extracted# ls
 0.tar  flag.enc  Gimli04Base.jpg
 ```
-<p>Dari 3 Flag yg didapatkan diatas itu merupakan clue, yaitu Key merupakan sha256(Gimli) dan juga pada file JPG masih terdapat file flag.enc yang masih encrypted AES_CBC</p>
+<p>Dari 3 Flag yg didapatkan diatas itu merupakan clue, yaitu Key merupakan sha256(File Gimli) dan juga pada file JPG masih terdapat file flag.enc yang masih encrypted AES_CBC</p>
 <p>Decrypt file flag.enc sama dengan metode decrypt sebelumnya, dan decode file encrypt ke base64 terlebih dahulu</p>
 
 ```console
 root@Python:/home/venom/Downloads/_ShahOfGimli.jpg.extracted/_20517.extracted# cat flag.enc | base64
 fD3kitB7aiTuyjuKflZw4O4KX8+t6pHkzr8EGirMByk=
+root@Python:/home/venom/Downloads/_ShahOfGimli.jpg.extracted/_20517.extracted# sha256sum Gimli04Base.jpg 
+e26db845ae634c7d774f8924a565e34e215b659a97c7e1d01a401fea7c5f6d87  Gimli04Base.jpg
+root@Python:/home/venom/Downloads/_ShahOfGimli.jpg.extracted/_20517.extracted# 
 ```
-
-<pre>
-Sha256(Gimli) = e26db845ae634c7d774f8924a565e34e215b659a97c7e1d01a401fea7c5f6d87
-</pre>
 
 ```python
 import base64
