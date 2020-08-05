@@ -18,7 +18,7 @@ Key:
 <p>Dan untuk ciphertext, decode base64 pada soal, pada base64 itu split antara MD5 dan base64 lalu decode, dan hasilnya</p>
 <pre>
 2|AaMxe1QTHApmNNUZ3NRjHg==|d262683e74729523433e28f2dec1bc6c6484f0075e2e638af5db922dbb9a1268
-</p>
+</pre>
 <p>Disini kita medapatkan IV dan ciphertextnya, yang artinya itu merupakan AES mode CBC, lanjut decrypt ciphertext AES-CBC</p>
 
 ```python
