@@ -26,7 +26,7 @@ else {
 }
 ?>
 ```
-<p>Dari program diatas flag dapat diperoleh jika Captcha dilakukan request POST dan captcha-nya berupa Session. Tips hapus session cookie dengan tool edit cookie dan captcha set null, lalu submit atau dengan perintah curl terminal dibawah</p>
+<p>Dari program diatas flag dapat diperoleh jika Captcha dilakukan request POST dan captcha-nya berupa Session. Tips hapus session cookie dengan tool edit cookie dan captcha set null, lalu submit maka flag akan muncul atau dengan perintah curl terminal dibawah</p>
 
 ```console
 root@Python:/home/venom/Downloads# curl http://challenges.ringzer0team.com:10142/captcha3.php --data "captcha="
