@@ -7,7 +7,31 @@ Upin : "Keknye, kite harus kasih tau opah, Mungkin opah tau maksud dari huruf da
 Ipin : "Jom"
 </pre>
 <h3><b>Solution</b></h3>
-<p></p>
+<p>Decode Cipher Shiffer pada website <a href='http://rumkin.com/tools/cipher/caesar.php'>Shift</a>, atau dengan script berikut</p>
+
+```python
+flag = "GXJV{4jj1r3_g1tl3v_ea3w0q3}"
+def rot13(n):
+    result = ""
+    for j in flag:
+        if j.isupper():
+            result += chr((ord(j)+n-65)%26+65)
+        elif j.islower():
+            result += chr((ord(j)+n-97)%26+97)
+        else:
+            result += j
+    if "CTFR" in result:
+        print(result+" ,Key =",n)
+     
+for j in range(26):
+    rot13(j)
+
+```
+<p>Output Program</p>
+<pre>
+CTFR{4ff1n3_c1ph3r_aw3s0m3} ,Key = 22
+</pre>
 <h3><b>Flag</b></h3>
 <pre>
+CTFR{4ff1n3_c1ph3r_aw3s0m3}
 </pre>
