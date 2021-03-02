@@ -6,7 +6,7 @@ Flag : ++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>---.>----------------.<+++.>
 
 </pre>
 <h3><b>Solution</b></h3>
-<p>Decode pada URL --> https://www.dcode.fr/brainfuck-language</p>
+<p>Brainfuck merupakan salah satu esolang programming, Decode pada URL --> https://www.dcode.fr/brainfuck-language</p>
 <h3><b>Flag</b></h3>
 <pre>
 CTFR{br41n_fucek_h3h3}
