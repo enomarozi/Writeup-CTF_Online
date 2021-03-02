@@ -5,7 +5,7 @@ Dalam kriptografi, SHA-1 adalah fungsi hash kriptografi yang mengambil input dan
 Flag : CTFR{(SHA1 dari "CTFR")}
 </pre>
 <h3><b>Solution</b></h3>
-<p>Decrypt SHA1</p>
+<p>Decrypt Hash SHA1</p>
 
 ```python3
 import hashlib
