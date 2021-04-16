@@ -1,0 +1,51 @@
+<h1><b>RSA #1</b></h1>
+<pre>
+RSA di bidang kriptografi adalah sebuah algoritme pada enkripsi public key. RSA merupakan algoritme pertama yang cocok untuk digital signature seperti halnya enkripsi, dan salah satu yang paling maju dalam bidang kriptografi public key.
+</pre>
+<h3><b>Solution</b></h3>
+<p>Diberikan sebuah Encode base64</p>
+<pre>
+RW5jcnlwdGVkIDoKSHlKZ3paRkx6UUFzYTVKSEtwZkE4Rkp3UGRsVm9rajhzYjE5RWgyQU1RNnpsMjBRdmNKYW5qZ3FZbXZqLzNlVGh1NjZMcEpMMndjTWllNXZHT3hFWDlHT3c5bmhZcEREYnFESlY5ck9sWHFkUkl0b1JzdjZWV2VJZTZVU2EzK2dUWXZsK09hT0Q3R3lodFRBaUZrZUlYeGsxdTBYekd1SitoUWwwd2VYTFVZPQoKUHVibGljIEtleSA6Ck1JR2ZNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0R05BRENCaVFLQmdRQ0NhRFFBUWtRTkVpR3o1b3ArQ2hZeW5EYlJpZDN6VlVsR3kzWmo1bFhKSzVodDFBL2lTUDUyUHMwb3dzSkZvbmxWUmc2d0M1ZTNWTm5FczFDT3pNZzNKMy9Zc0l6Y1lpa3JEaG9wRDZFQ3ZPd25udVlhbmxwaU5sSkxPaXJtbS9FU0xBdFZaUzQrSGtvWWo4K1NHR1FOcWtIVjIrRm1IUVU0Y0xIRzhMS3Ztd0lEQVFBQgoKUHJpdmF0ZSBLZXkgOgpNSUlDZHdJQkFEQU5CZ2txaGtpRzl3MEJBUUVGQUFTQ0FtRXdnZ0pkQWdFQUFvR0JBSUpvTkFCQ1JBMFNJYlBtaW40S0ZqS2NOdEdKM2ZOVlNVYkxkbVBtVmNrcm1HM1VEK0pJL25ZK3pTakN3a1dpZVZWR0RyQUxsN2RVMmNTelVJN015RGNuZjlpd2pOeGlLU3NPR2lrUG9RSzg3Q2VlNWhxZVdtSTJVa3M2S3VhYjhSSXNDMVZsTGo0ZVNoaVB6NUlZWkEycVFkWGI0V1lkQlRod3NjYndzcStiQWdNQkFBRUNnWUEzOVRMck1ZUTEvNlBLcUpDaENQOEJkSnJwU3ptY1l1cHdvSG9LNEJuTG14TnJmV1hiZWVzSEhtZTJwK3ZwS1pEYkVKYlk0QUNZUUthNWl5QjBSbGRiQXk1MWMzRTcyZU9nSTE2T1JnVFlKZXkyWmE5eWh1ci9Hdko0M2dVZmlwcHRuRGlHVXl4YTFheHFhWTZsZ0R3K1QyUC9ETUs5OXduRTRGaGNyalJ0TVFKQkFPRTFxZTRIUTR1aVlPcU4wbjJOd0x6VHYzTDFRSEJ1dC9KU3FYcy9MTVJQN1R0Y3k2MlBIejg4V2thQTdTejhjdXl4VEtSL1ZkeWMyQjRCdTFwUlF0OENRUUNVUEhNRU9QUmVsbTI3Zmd5bHZ3UHRoRm1EQ3FZV2E2TTRZd0VEN0ZBQzFXQmd5NlVlNGNyVWt0bHpWZ3RwMmJMc0FaeWl1dFRLb2c0TUc4TmJod2JGQWtFQXk1TC94WHRwY2twWXd3MXFEVFphMkJXc2hKVHZKL0xkY2oySW1ERDJIWXFHVGxmR2dWL1RoZ3pmS2NZWEhzZ2dkcGFhU2tRVWNEU1RJeVM3bjV1L0R3SkFUY0VIYzRlTVpyRHhEZytvQXFpWEh0YjFQTTh4SDBHR2MrVTZleHhSTzZ0QXlvVUhMNU93R0tDT2Z2ajdNNktGUDFYNUcwSjBxM1VsZVNSMjdHTi9JUUpCQUxTVEIvSGJzSHdUYmZRbm41eVlTM3NzSE5yR05KY3I3dXNGZjhUOHl4em84OE5uWTNSU0MvYmQ3emZJdjUxLzZJcVIxQ0NYanFTaEJtekgwWitzZWJVPQ==
+</pre>
+<p>Hasil Decode</p>
+<pre>
+Encrypted   : HyJgzZFLzQAsa5JHKpfA8FJwPdlVokj8sb19Eh2AMQ6zl20QvcJanjgqYmvj/3eThu66LpJL2wcMie5vGOxEX9GOw9nhYpDDbqDJV9rOlXqdRItoRsv6VWeIe6USa3+gTYvl+OaOD7GyhtTAiFkeIXxk1u0XzGuJ+hQl0weXLUY=
+Public Key  : MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCaDQAQkQNEiGz5op+ChYynDbRid3zVUlGy3Zj5lXJK5ht1A/iSP52Ps0owsJFonlVRg6wC5e3VNnEs1COzMg3J3/YsIzcYikrDhopD6ECvOwnnuYanlpiNlJLOirmm/ESLAtVZS4+HkoYj8+SGGQNqkHV2+FmHQU4cLHG8LKvmwIDAQAB
+Private Key : MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIJoNABCRA0SIbPmin4KFjKcNtGJ3fNVSUbLdmPmVckrmG3UD+JI/nY+zSjCwkWieVVGDrALl7dU2cSzUI7MyDcnf9iwjNxiKSsOGikPoQK87Cee5hqeWmI2Uks6Kuab8RIsC1VlLj4eShiPz5IYZA2qQdXb4WYdBThwscbwsq+bAgMBAAECgYA39TLrMYQ1/6PKqJChCP8BdJrpSzmcYupwoHoK4BnLmxNrfWXbeesHHme2p+vpKZDbEJbY4ACYQKa5iyB0RldbAy51c3E72eOgI16ORgTYJey2Za9yhur/GvJ43gUfipptnDiGUyxa1axqaY6lgDw+T2P/DMK99wnE4FhcrjRtMQJBAOE1qe4HQ4uiYOqN0n2NwLzTv3L1QHBut/JSqXs/LMRP7Ttcy62PHz88WkaA7Sz8cuyxTKR/Vdyc2B4Bu1pRQt8CQQCUPHMEOPRelm27fgylvwPthFmDCqYWa6M4YwED7FAC1WBgy6Ue4crUktlzVgtp2bLsAZyiutTKog4MG8NbhwbFAkEAy5L/xXtpckpYww1qDTZa2BWshJTvJ/Ldcj2ImDD2HYqGTlfGgV/ThgzfKcYXHsggdpaaSkQUcDSTIyS7n5u/DwJATcEHc4eMZrDxDg+oAqiXHtb1PM8xH0GGc+U6exxRO6tAyoUHL5OwGKCOfvj7M6KFP1X5G0J0q3UleSR27GN/IQJBALSTB/HbsHwTbfQnn5yYS3ssHNrGNJcr7usFf8T8yxzo88NnY3RSC/bd7zfIv51/6IqR1CCXjqShBmzH0Z+sebU=
+</pre>
+<p align='justify'>Didapatkan Encrypted RSA, Dikarenakan private key sudah didapatkan, decrypt pada <a href='https://www.devglan.com/online-tools/rsa-encryption-decryption'>URL</a>
+dengan memasukan encryted dan private key, atau dengan perintah openssl</p>
+
+```console
+root@Python:/home/venom/Downloads# cat rsa.private 
+-----BEGIN RSA PRIVATE KEY-----
+MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIJoNABCRA0SIbPm
+in4KFjKcNtGJ3fNVSUbLdmPmVckrmG3UD+JI/nY+zSjCwkWieVVGDrALl7dU2cSz
+UI7MyDcnf9iwjNxiKSsOGikPoQK87Cee5hqeWmI2Uks6Kuab8RIsC1VlLj4eShiP
+z5IYZA2qQdXb4WYdBThwscbwsq+bAgMBAAECgYA39TLrMYQ1/6PKqJChCP8BdJrp
+SzmcYupwoHoK4BnLmxNrfWXbeesHHme2p+vpKZDbEJbY4ACYQKa5iyB0RldbAy51
+c3E72eOgI16ORgTYJey2Za9yhur/GvJ43gUfipptnDiGUyxa1axqaY6lgDw+T2P/
+DMK99wnE4FhcrjRtMQJBAOE1qe4HQ4uiYOqN0n2NwLzTv3L1QHBut/JSqXs/LMRP
+7Ttcy62PHz88WkaA7Sz8cuyxTKR/Vdyc2B4Bu1pRQt8CQQCUPHMEOPRelm27fgyl
+vwPthFmDCqYWa6M4YwED7FAC1WBgy6Ue4crUktlzVgtp2bLsAZyiutTKog4MG8Nb
+hwbFAkEAy5L/xXtpckpYww1qDTZa2BWshJTvJ/Ldcj2ImDD2HYqGTlfGgV/Thgzf
+KcYXHsggdpaaSkQUcDSTIyS7n5u/DwJATcEHc4eMZrDxDg+oAqiXHtb1PM8xH0GG
+c+U6exxRO6tAyoUHL5OwGKCOfvj7M6KFP1X5G0J0q3UleSR27GN/IQJBALSTB/Hb
+sHwTbfQnn5yYS3ssHNrGNJcr7usFf8T8yxzo88NnY3RSC/bd7zfIv51/6IqR1CCX
+jqShBmzH0Z+sebU=
+-----END RSA PRIVATE KEY-----
+root@Python:/home/venom/Downloads# echo "HyJgzZFLzQAsa5JHKpfA8FJwPdlVokj8sb19Eh2AMQ6zl20QvcJanjgqYmvj/3eThu66LpJL2wcMie5vGOxEX9GOw9nhYpDDbqDJV9rOlXqdRItoRsv6VWeIe6USa3+gTYvl+OaOD7GyhtTAiFkeIXxk1u0XzGuJ+hQl0weXLUY=" | base64 -d > flag.enc
+root@Python:/home/venom/Downloads# cat flag.enc 
+"`͑K�,k�G*���Rp=�U�H���}�1��m��Z�8*bk��w���.�K�
+                                              ��o�D_ю���b��n��W�Εz�D�hF��Ug�{�k�M����������Y!|d���k��%��-F
+root@Python:/home/venom/Downloads# openssl rsautl -decrypt -in flag.enc -out ok.txt -inkey rsa.private 
+root@Python:/home/venom/Downloads# cat ok.txt 
+CTFR{rs4_3ncrypt10n_1s_aw3s0m3}
+root@Python:/home/venom/Downloads# 
+
+```
+
+<h3><b>Flag</b></h3>
+<pre>
+CTFR{rs4_3ncrypt10n_1s_aw3s0m3}
+</pre>
