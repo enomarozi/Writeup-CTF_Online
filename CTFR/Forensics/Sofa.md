@@ -21,13 +21,12 @@ C0 00 11 08 01 80 02 00 03 01 11 00 02 11 01 03 11 01 FF
 
 ```python3
 file = open('sofa.jpg','rb').read()
-sofo = [i for i in file[0x9e:0xae]][::-1]
+sofo_file = [i for i in file[0x9e:0xae]][::-1]
 for i in range(20):
-    sofo.append(0)
-sofo_fla = "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 01 80 02 00 03 01 11 00 02 11 01 03 11 01 FF".split(' ')
+    sofo_file.append(0)
 enc_flag = "43 54 46 52 7b 78 30 72 5f 77 31 74 68 5f 73 30 66 5f 63 34 64 62 f5 6e 34 77 32 4e 73 32 4e 66 33 21 65 82".split(' ')
-for i,j in zip(enc_flag,sofo[::-1]):
-    print(chr(int(i,16)^j),end='')#CTFR{x0r_w1th_s0f_c4lcul4t3_s0_g00d}
+for i,j in zip(enc_flag,sofo_file[::-1]):
+    print(chr(int(i,16)^j),end='')
 ```
 <h3><b>Flag</b></h3>
 <pre>
