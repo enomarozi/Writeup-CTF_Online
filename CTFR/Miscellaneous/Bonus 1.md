@@ -9,7 +9,7 @@ Flag : CTFR{b0nu5_s4tu}
 
 </pre>
 <h3><b>Solution</b></h3>
-<p>Input aja</p>
+<p>Auto Solve, Input aja</p>
 <h3><b>Flag</b></h3>
 <pre>
 CTFR{b0nu5_s4tu}
