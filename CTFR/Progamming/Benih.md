@@ -8,7 +8,7 @@ Challenge --> <a href='https://mega.nz/#!AkByiJiA!HHYR3Zxrh52ueX0i4D2QyPIx4TX2mm
 <p align='justify'>PRNG (Pseudo Random Number Generator) yaitu suatu algoritma yang dapat menampilkan nilai acak yang tidak dapat diprediksi atau diketahui. Seed merupakan
 nilai pembangkit dari sebuah nilai acak tersebut. Jadi kelemahan dari encrypt PRNG ini yaitu seed yang sudah diberikan yaitu "CTFR" dan operasi dijadikan pengurangan</p>
 
-```python2
+```python
 import random
 
 encrypted = open("encrypt.txt", "r").read()
