@@ -18,6 +18,6 @@ text = qr.detect_and_decode(image=image)
 print(text[0])
 ```
 <h3>Flag</h3>
-<p>
+<pre>
   picoCTF{p33k_@_b00_7843f77c}
-</p>
+</pre>
