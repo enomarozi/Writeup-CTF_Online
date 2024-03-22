@@ -24,7 +24,7 @@ root@xisco-VirtualBox:/home/xisco/Downloads#
   <img src='https://github.com/enomarozi/Writeup-CTF_Online/blob/master/PicoCTF2024/Forensics/Images/flag.png'>
 </p>
 <p>Dari PNG : picoCTF{f1u3n7_1n_</p>
-<p>Extract File PDF</p>
+<p>Extract File PDF pada offset 0x392</p>
 
 ```python3
 with open('flag.png','rb') as f:
