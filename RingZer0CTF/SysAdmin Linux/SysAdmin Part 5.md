@@ -15,7 +15,7 @@ alias reveal="openssl enc -aes-256-cbc -a -d -pbkdf2 -in encflag.txt.enc -k 'lp6
 oracle@sysadmin-track:~$ reveal
 FLAG-54e7f8d0ea560fa7ed98e832900fc45b
 ```
-<p>Login dengan private key, dan check file .basrc pada directory HOME oracle, disana terdapat alias untuk decrypt file flag</p>
+<p>Login dengan private key, dan check file .basrc pada directory HOME oracle, disana terdapat alias untuk decrypt file flag "reveal"</p>
 
 <h3>Flag</h3>
 <pre>FLAG-54e7f8d0ea560fa7ed98e832900fc45b</pre>
