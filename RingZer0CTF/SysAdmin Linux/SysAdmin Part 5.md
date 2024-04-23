@@ -8,9 +8,12 @@ Host: ssh -i ssh.key oracle@ringzer0ctf.com -p 10149</p>
 
 ```console
 root@xisco-VirtualBox:/home/xisco/Downloads# ssh -i ssh.key oracle@ringzer0ctf.com -p 10149
-oracle@sysadmin-track:~$ openssl enc -aes-256-cbc -a -d -pbkdf2 -in encflag.txt.enc -k 'lp6PWgOwDctq5Yx7ntTmBpOISc'
+oracle@sysadmin-track:~$ cat .bashrc
+....
+alias reveal="openssl enc -aes-256-cbc -a -d -pbkdf2 -in encflag.txt.enc -k 'lp6PWgOwDctq5Yx7ntTmBpOISc'"
+....
+oracle@sysadmin-track:~$ reveal
 FLAG-54e7f8d0ea560fa7ed98e832900fc45b
-oracle@sysadmin-track:~$
 ```
 <p>Login dengan private key, dan check file .basrc pada directory HOME oracle, disana terdapat alias untuk decrypt file flag</p>
 
