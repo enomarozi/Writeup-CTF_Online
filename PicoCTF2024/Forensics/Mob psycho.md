@@ -8,18 +8,21 @@ Download the android apk.</p>
 
 <h3>Solution</h3>
 
-```console
-root@xisco-VirtualBox:/home/xisco/Downloads# unzip mobpsycho.apk | grep -i flag
-  inflating: res/color/flag.txt      
-root@xisco-VirtualBox:/home/xisco/Downloads# cat res/color/flag.txt 
-7069636f4354467b6178386d433052553676655f4e5838356c346178386d436c5f37303364643965667d
+```bash
+#!/bin/bash
 
+extract=$(unzip "mobpsycho.apk")
+path=$(find . -iname "*.txt")
+hex=$(cat $path)
+hextotext=$(python3 -c "print(bytes.fromhex('"$hex"').decode('ascii'))")
+echo $hextotext
 ```
 
-```python
-file = open('res/color/flag.txt','r').read()
-print(bytes.fromhex(file).decode('ascii'))
+```console
+root@xisco-VirtualBox:/home/xisco/Downloads# ./script.sh 
+picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_85dbd215}
 ```
 
 <h3>Flag</h3>
-<pre>picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_703dd9ef}</pre>
+<pre>picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_703dd9ef}
+</pre>
