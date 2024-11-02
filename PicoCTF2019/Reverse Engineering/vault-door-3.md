@@ -4,7 +4,7 @@
 This vault uses for-loops and byte arrays. The source code for this vault is here: <a href='https://jupiter.challenges.picoctf.org/static/a4018cec1446761cb2e8cce05db925fa/VaultDoor3.java'>VaultDoor3.java</a>
 </pre>
 <h3>Solution</h3>
-<p>Cek source code program</p>
+<p>Cek source code program, berikut python code perbaiki string acak</p>
 
 ```python3
 password = 'jU5t_a_sna_3lpm12g94c_u_4_m7ra41'
@@ -30,3 +30,7 @@ picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_c79a21}
 └─# python3 solved.py | java VaultDoor3 
 Enter vault password: Access granted.
 ```
+<h3>Flag</h3>
+<pre>
+picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_c79a21}
+</pre>
