@@ -1,9 +1,8 @@
-<h1><b>Admin Portal</h1></b>
-<pre>
-Diberikan sebuah password form dan source code
-</pre>
-</b><h3>Solution</h3></b>
-<p>Dibawah source codenya</p>
+<h1>PHP Fairy</h1>
+<h3>Description</h3>
+<label>https://ringzer0ctf.com/challenges/254</label>
+<h3>Solution</h3>
+<label>Source codenya</label>
 
 ```php
 <?php
@@ -35,17 +34,13 @@ if (isset($_GET['pass'])) {
 }
 ?>
 ```
-<p align='justify'>Pada source code diatas Flag bisa didapatkan jika kita me-set password tanpa syntax SQL, selanjutnya terdapat variabel $pass = md5(admin1674227342) yaitu --> 0e463854177790028825434984462555
-Dan selanjutnya jika kita set password == variabel $pass && variabel $pass !== set password</p>
-<p align='justify'>Disini kita hanya perlu mengetahui perbedaan == dan ===, jika == tidak akan membedakan tipe data, dan === itu artinya akan membedakan sampai ke type data.
-Pada soal terdapat variabel $pass yang hasil MD5nya --> 0e463854177790028825434984462555, diketahui persamaan matematika pada program huruf 'e' itu artinya exponen
-dan pada MD5 tersebut 0e4638..... artinya 0 pangkat 4638..... = 0</p>
-<p align='justify'>Jadi cara kita membypass statment pertama dengan input dengan string 0, selanjutnya statment panjangan kita hanya perlu membuat 0 hingga panjangannya 32 character
-yang sama dengan panjang MD5</p>
+<label>$pass = md5(admin1674227342) yaitu --> 0e463854177790028825434984462555</label>
 <pre>
-input password --> 00000000000000000000000000000000
+== bertipe longgar (jika input type string dan berkemungkinan integer akan dianggap integer)
+=== identik (jika tipe data dan content sama)
 </pre>
-</b><h3>Flag</h3></b>
+<label>Payload : 00000000000000000000000000000000</label>
+<h3>Flag</h3>
 <pre>
 FLAG-K7PY48gt02T1yvoO9jzP694FztgR1jIS
 </pre>
