@@ -1,10 +1,8 @@
-<h1><b>Unreadable captcha</h1></b>
-<pre>
-Diberikan sebuah link captcha challenger
-</pre>
-</b><h3>Solution</h3></b>
-<p align='justify'>Jika kita membaca captchanya itu merupakan character diluar standard ascii. Lakukan inspect element dan perhatikan paling bawah terdapat file txt yaitu source code
-dari challenger tersebut dan buka --> http://challenges.ringzer0team.com:10142/captcha3.txt</p>
+<h1>Unreadable captcha</h1>
+<h3>Description</h3>
+<label>http://challenges.ringzer0ctf.com:10142/</label>
+<h3>Solution</h3>
+<label>Check comment di view source halaman --> http://challenges.ringzer0team.com:10142/captcha3.txt</label>
 
 ```php
 <?php
@@ -26,7 +24,7 @@ else {
 }
 ?>
 ```
-<p>Dari program diatas flag dapat diperoleh jika Captcha dilakukan request POST dan captcha-nya berupa Session. Tips hapus session cookie dengan tool edit cookie dan captcha set null, lalu submit maka flag akan muncul atau dengan perintah curl terminal dibawah</p>
+<p>Flag didapatkan jika data captcha == session captcha</p>
 
 ```console
 root@Python:/home/venom/Downloads# curl http://challenges.ringzer0team.com:10142/captcha3.php --data "captcha="
@@ -34,7 +32,7 @@ Congrats, the flag is FLAG-siLqVmuuEDDFtz9jqIFIAOQmCF
 root@Python:/home/venom/Downloads# 
 
 ```
-</b><h3>Flag</h3></b>
+<h3>Flag</h3>
 <pre>
 FLAG-siLqVmuuEDDFtz9jqIFIAOQmCF
 </pre>
