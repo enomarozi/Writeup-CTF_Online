@@ -1,8 +1,8 @@
-<h1><b>What Lies Within</h1></b>
+<h1>What Lies Within</h1>
 <pre>
 Theres something in the <a href='https://2019shell1.picoctf.com/static/aec3861fc4d5bce4d39dc0db196426de/buildings.png'>building</a>. Can you retrieve the flag?
 </pre>
-</b><h3>Solution</h3></b>
+<h3>Solution</h3>
 <p>tool zsteg didapatkan flag pada LSB bit 1 RGB</p>
 
 ```console
@@ -23,7 +23,7 @@ b4,bgr,msb,xy       .. text: " V\"c7Ga4"
 b4,abgr,msb,xy      .. text: "gOC_$_@o"
 root@Python:/home/venom/Downloads# 
 ```
-</b><h3>Flag</h3></b>
+<h3>Flag</h3>
 <pre>
 picoCTF{h1d1ng_1n_th3_b1t5}
 </pre>
