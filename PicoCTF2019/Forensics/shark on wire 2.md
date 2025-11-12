@@ -4,7 +4,7 @@ We found this <a href='https://2019shell1.picoctf.com/static/dcd259894e0efe9d6e9
 You can also find the file in /problems/shark-on-wire-2_0_3e92bfbdb2f6d0e25b8d019453fdbf07.
 </pre>
 <h3>Solution</h3>
-<p>Check masing-masing desimal di ip_src 10.0.0.66 dan ip_dst 10.0.0.1</p>
+<p>Check masing-masing desimal ip_src 10.0.0.66 dan ip_dst 10.0.0.1</p>
 <p align='center'>
   <img src="https://github.com/enomarozi/CTF-Writeup/blob/master/Wireshark/Images/shark%20on%20wire%202_2.png">
 </p>
