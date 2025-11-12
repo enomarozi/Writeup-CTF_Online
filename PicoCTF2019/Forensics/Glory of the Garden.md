@@ -4,7 +4,7 @@ This garden contains more than it seems. You can also find the file in
 /problems/glory-of-the-garden_5_eeb712a9a3bc1998ffcd626af9d63f98 on the shell server.
 </pre>
 <h3>Solution</h3>
-<p>Eksekusi strings dan grep pada terminal</p>
+<p>strings dan grep</p>
 
 ```console
 xxxx@xxxxx:/home/xxxxx/Downloads# strings -a garden.jpg | grep -i pico
