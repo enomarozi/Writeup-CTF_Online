@@ -1,8 +1,8 @@
-<h1><b>WhitePages</h1></b>
+<h1>WhitePages</h1>
 <pre>
 I stopped using YellowPages and moved onto WhitePages... but the <a href='https://2019shell1.picoctf.com/static/e134178261c6fa36e9058d5408118dd9/whitepages.txt'>page</a> they gave me is all blank!
 </pre>
-</b><h3>Solution</h3></b>
+<h3>Solution</h3>
 <p>eksekusi xxd pada file</p>
 
 ```console
@@ -19,9 +19,11 @@ root@Python:/home/venom/Downloads# xxd whitepages.txt | head -n 10
 00000090: e280 8320 e280 8320 e280 83e2 8083 e280  ... ... ........
 root@Python:/home/venom/Downloads# 
 ```
-<p>Disana terdapat beberapa macam nilai hexa ea 80 80 20, dan raw bytes hanya terdapat titik dan space, karena melampaui ascii 127</p>
-<p>Convert hexa = 20 --> 1</p>
-<p>Convert hexa > 20 --> 0</p>
+<label>Convert hexa</label>
+<pre>
+== 0x20 --> 1
+!= 0x20 --> 0	
+</pre>
 
 ```python
 file = open("whitepages.txt").read()
