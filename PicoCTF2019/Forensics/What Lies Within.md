@@ -3,7 +3,7 @@
 Theres something in the <a href='https://2019shell1.picoctf.com/static/aec3861fc4d5bce4d39dc0db196426de/buildings.png'>building</a>. Can you retrieve the flag?
 </pre>
 </b><h3>Solution</h3></b>
-<p>Dengan tool zsteg didapatkan flag pada LSB bit 1 RGB</p>
+<p>tool zsteg didapatkan flag pada LSB bit 1 RGB</p>
 
 ```console
 root@Python:/home/venom/Downloads# zsteg buildings.png 
