@@ -1,9 +1,8 @@
-<h1><b>Brainsick</h1></b>
+<h1>Brainsick</h1>
 <pre>
 <a href="https://ringzer0ctf.com/files/fbeaf2dcc012234eca5aa389cf0edf89.zip">File</a>
 </pre>
-</b><h3>Solution</h3></b>
-<p>Identifikasi file disana terdapat file rar, ekstrak dengan foremost dan ekstrak file rar, lalu buka filenya</p>
+<h3>Solution</h3>
 
 ```console
 root@Python:/home/venom/Downloads# unzip fbeaf2dcc012234eca5aa389cf0edf89.zip 
@@ -37,7 +36,7 @@ root@Python:/home/venom/Downloads/output/rar# eog flag.gif
 <p align='center'>
   <img src="https://github.com/enomarozi/Writeup-CTF/blob/master/RingZer0CTF/Steganography/Images/flag.gif">
 </p>
-</b><h3>Flag</h3></b>
+<h3>Flag</h3>
 <pre>
 Flag-Th2K4s83uQh9xA
 </pre>
