@@ -1,8 +1,8 @@
-<h1><b>Look inside the house</h1></b>
+<h1>Look inside the house</h1>
 <pre>
 <a href="https://ringzer0ctf.com/files/15fa3a948a1aed3802fe40c206b6df40.zip">File</a>
 </pre>
-</b><h3>Solution</h3></b>
+<h3>Solution</h3>
 <p>File jpg identik dengan steganography file flag.txt dengan steghide tanpa password</p>
 
 ```console
@@ -15,7 +15,7 @@ root@Python:/home/venom/Downloads# cat flag.txt
 FLAG-5jk682aqoepoi582r940oow
 root@Python:/home/venom/Downloads# 
 ```
-</b><h3>Flag</h3></b>
+<h3>Flag</h3>
 <pre>
 FLAG-5jk682aqoepoi582r940oow
 </pre>
