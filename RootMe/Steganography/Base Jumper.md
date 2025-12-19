@@ -1,7 +1,7 @@
 <h1>Base Jumper</h1>
 <h3>Description</h3>
 <label>It seems steganography is all the rage with attackers exfiltrating data these days.
-Look at this example I found, I think it has a flag inside.</label>
+Look at this example I found, I think it has a flag inside.</label><a href='https://static.root-me.org/steganographie/ch15/ch15.jpg'>File</a>
 <h3>Solution</h3>
 <label>Merupakan steganography Paddinganograph</label>
 
