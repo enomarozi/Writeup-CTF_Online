@@ -1,6 +1,6 @@
 <h1>ELF C++ - 0 protection</h1>
 <h3>Description</h3>
-<label></label>
+<label>Find the validation password.</label><a href='https://static.root-me.org/cracking/ch25/ch25.bin'>File</a>
 <h3>Solution</h3>
 <label>Cek fungsi main() di alamat &DAT_08048dc4 dan &DAT_08048dcc</label>
 <pre>
