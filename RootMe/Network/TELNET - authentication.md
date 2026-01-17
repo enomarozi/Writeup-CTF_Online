@@ -2,6 +2,7 @@
 <h3>Decription</h3>
 <label>Find the user password in this TELNET session capture.</label>
 <h3>Solution</h3>
+<label>Follow TCP Stream pada protocol Telnet, check authentication</label>
 <label>Convert pcapng ke pcap</label>
 
 ```console
