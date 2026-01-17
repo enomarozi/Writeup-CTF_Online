@@ -2,6 +2,12 @@
 <h3>Decription</h3>
 <label>Find the user password in this TELNET session capture.</label>
 <h3>Solution</h3>
+<label>Convert pcapng ke pcap</label>
+
+```console
+┌──(root㉿Kali)-[/home/venom/Downloads]
+└─# tshark -F libpcap -r ch2.pcap -w convert.pcap
+```
 
 ```python
 from scapy.all import rdpcap
