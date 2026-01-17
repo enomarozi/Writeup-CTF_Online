@@ -2,7 +2,12 @@
 <h3>Description</h3>
 <label>An authenticated file exchange achieved through FTP. Recover the password used by the user.</label>
 <h3>Solution</h3>
-<label>Check Password di Follow TCP Stream</label>
+<label>Check Password di Follow TCP Stream, convert pcapng ke pcap</label>
+
+```console
+┌──(root㉿Kali)-[/home/venom/Downloads]
+└─# tshark -F libpcap -r ch1.pcap -w convert.pcap
+```
 
 ```python3
 from scapy.all import rdpcap
