@@ -5,6 +5,23 @@
 <label>Follow HTTP Stream pada packet, cek Basic Authorization</label>
 
 ```console
+┌──(root㉿Kali)-[/home/venom/Downloads]
+└─# tshark -F libpcap -r ch3.pcap -w convert.pcap 
+Running as user "root" and group "root". This could be dangerous.
+```
+```python3
+from scapy.all import rdpcap
+
+file = rdpcap("convert.pcap")
+for pkt in file:
+    try:
+        packet = pkt['Raw'].load.decode().split('\r\n')
+        for i in packet:
+            print(i)
+    except:
+        pass
+```
+```console
 ┌──(root㉿Kali)-[/home/venom]
 └─# echo "dXNlcnRlc3Q6cGFzc3dvcmQ=" | base64 -d
 usertest:password
