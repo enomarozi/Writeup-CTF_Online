@@ -9,22 +9,9 @@ Download the assembly dump <a href='https://artifacts.picoctf.net/c/510/disassem
 <p>Sesuai soal</p>
 
 ```console
-┌──(root㉿Python)-[/home/venom/Downloads]
-└─# cat disassembler-dump0_b.txt                   
-<+0>:     endbr64 
-<+4>:     push   rbp
-<+5>:     mov    rbp,rsp
-<+8>:     mov    DWORD PTR [rbp-0x14],edi
-<+11>:    mov    QWORD PTR [rbp-0x20],rsi
-<+15>:    mov    DWORD PTR [rbp-0x4],0x9fe1a
-<+22>:    mov    eax,DWORD PTR [rbp-0x4]
-<+25>:    pop    rbp
-<+26>:    ret
-                                                                                                                    
-┌──(root㉿Python)-[/home/venom/Downloads]
-└─# printf "picoCTF{%d}\n" 0x9fe1a
-picoCTF{654874}
-
+┌──(root㉿Kali)-[/home/venom/Downloads]
+└─# hexa=$(strings disassembler-dump0_b.txt| grep -oE '0x9[0-9a-fA-F]+'); printf 'picoCTF{%d}' hexa
+picoCTF{654874} 
 ```
 <h3>Flag</h3>
 <pre>
