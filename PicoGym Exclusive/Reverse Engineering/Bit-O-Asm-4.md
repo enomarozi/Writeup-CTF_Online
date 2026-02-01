@@ -15,10 +15,14 @@ Download the assembly dump <a href='https://artifacts.picoctf.net/c/511/disassem
 <+45>:    ret #return
 ```
 
-```console
-┌──(root㉿Kali)-[/home/venom/Downloads]
-└─# printf "picoCTF{%d}\n" 0x9fe1a-0x65        
-picoCTF{654773}
+```python3
+rbp_0x4 = 0x9fe1a
+temp = 0x2710
+if temp <= rbp_0x4:
+    rbp_0x4 -= 0x65
+else:
+    rbp_0x4 += 0x65
+print('picoCTF{'+str(rbp_0x4)+'}')
 ```
 
 <h3>Flag</h3>
