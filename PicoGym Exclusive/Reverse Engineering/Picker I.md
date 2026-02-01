@@ -7,7 +7,39 @@ $ nc saturn.picoctf.net 63187
 The program's source code can be downloaded <a href='https://artifacts.picoctf.net/c/515/picker-I.py'>here.</a>
 </pre>
 <h3>Solution</h3>
-<p>Input win pada user_input yang akan mengeksekusi fungsi win() dengan eval()</p>
+
+```python3
+import sys
+
+def getRandomNumber():
+  print(4)  # Chosen by fair die roll.
+            # Guaranteed to be random.
+            # (See XKCD)
+
+def exit():
+  sys.exit(0)
+
+def win():
+  # This line will not work locally unless you create your own 'flag.txt' in
+  #   the same directory as this script
+  flag = open('flag.txt', 'r').read()
+  #flag = flag[:-1]
+  flag = flag.strip()
+  str_flag = ''
+  for c in flag:
+    str_flag += str(hex(ord(c))) + ' '
+  print(str_flag)
+
+while(True):
+  try:
+    print('Try entering "getRandomNumber" without the double quotes...')
+    user_input = input('==> ')
+    eval(user_input + '()')
+  except Exception as e:
+    print(e)
+    break
+```
+<p>Input win pada user_input yang akan mengeksekusi fungsi win() dengan fungsi eval()</p>
 
 ```console
 ┌──(root㉿Python)-[/home/venom/Downloads]
