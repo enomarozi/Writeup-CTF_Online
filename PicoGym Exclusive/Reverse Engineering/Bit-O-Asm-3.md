@@ -24,9 +24,17 @@ Download the assembly dump <a href='https://artifacts.picoctf.net/c/530/disassem
 <+47>:    pop    rbp
 <+48>:    ret
                                                                                                                     
-┌──(root㉿Python)-[/home/venom/Downloads]
-└─# printf "picoCTF{%d}\n" 0x9fe1a*0x4+0x1f5
-picoCTF{2619997}
+```
+
+```python3
+rbp_0xc = 0x9fe1a
+rbp_0x8 = 0x4
+eax = rbp_0xc
+eax *= rbp_0x8
+eax += 0x1f5
+rbp_0x4 = eax
+eax = rbp_0x4
+print('picoCTF{'+str(eax)+'}')
 ```
 <h3>Flag</h3>
 <pre>
