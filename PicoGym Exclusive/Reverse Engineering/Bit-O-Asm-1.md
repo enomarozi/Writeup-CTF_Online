@@ -6,7 +6,7 @@ Download the assembly dump <a href='https://artifacts.picoctf.net/c/509/disassem
 </pre>
 <h3>Solution</h3>
 
-<p>Sesuai yang diminta soal</p>
+<p>Intruksi soal</p>
 
 ```console
 ┌──(root㉿Python)-[/home/venom/Downloads]
