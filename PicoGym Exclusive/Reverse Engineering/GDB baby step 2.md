@@ -11,7 +11,7 @@ Debug <a href='https://artifacts.picoctf.net/c/520/debugger0_b'>this</a>.
  0x0000000000401115 <+15>:	mov    DWORD PTR [rbp-0x4],0x1e0da ;simpan 0x1e0da ke rbp-0x4
  0x000000000040111c <+22>:	mov    DWORD PTR [rbp-0xc],0x25f ;simpan 0x25f ke rbp-0xc
  0x0000000000401123 <+29>:	mov    DWORD PTR [rbp-0x8],0x0 ;simpan 0x0 ke rbp-0x8
- 0x000000000040112a <+36>:	jmp    0x401136 <main+48> ; while true
+ 0x000000000040112a <+36>:	jmp    0x401136 <main+48> ; loop dan jump ke alamat 0x401136
  0x000000000040112c <+38>:	mov    eax,DWORD PTR [rbp-0x8] ;rbp-0x8 ke register eax
  0x000000000040112f <+41>:	add    DWORD PTR [rbp-0x4],eax ;eax + rbp-0x4
  0x0000000000401132 <+44>:	add    DWORD PTR [rbp-0x8],0x1 ;0x1 + rbp-0x8
@@ -23,16 +23,13 @@ Debug <a href='https://artifacts.picoctf.net/c/520/debugger0_b'>this</a>.
 <p>Persamaan dengan script python</p>
 
 ```python3
-result = 0x1e0da
-batas = 0x25f
-inc_ = 0
-while True:
-    inc_ += 1
-    if inc_ >= batas:
-        break
-    result += inc_
+rbp_0x4 = 0x1e0da
+rbp_0xc = 0x25f
+rbp_0x8 = 0x0
 
-print("picoCTF{"+str(result)+"}")
+for i in range(rbp_0xc):
+    rbp_0x4 += i
+print('picoCTF{'+str(rbp_0x4)+'}')
 ```
 
 <h3>Flag</h3>
