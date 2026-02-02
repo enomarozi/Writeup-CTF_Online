@@ -8,7 +8,7 @@ This vault uses some complicated arrays! I hope you can make sense of it, specia
 ```python3
 index_ = [0,29,4,2,23,3,17,1,7,10,5,9,11,15,8,12,20,14,6,24,
           18,13,19,21,16,27,30,25,22,28,26,31]
-char_ = 'd,3,r,5,r,c,4,3,b,_,4,3,t,c,l,H,c,_,m,5,r,3,4,T,H,f,b,_,3,6,f,0'.split(',')
+char_ = 'd,4,r,5,r,c,4,3,b,_,4,3,t,c,l,H,c,_,m,5,r,3,4,T,H,0,e,_,3,e,a,b'.split(',')
 result = "picoCTF{"
 if len(index_) == len(char_):
     for i in range(len(index_)):
@@ -21,11 +21,15 @@ print(result+'}')
 └─# python3 solved.py                  
 picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_ff63b0}
                                                                                 
-┌──(root㉿Python)-[/home/venom/Downloads]
-└─# python3 solved.py | java VaultDoor1
-Enter vault password: Access granted.
+┌──(root㉿Kali)-[/home/venom/Downloads]
+└─# javac VaultDoor1.java
+                                                                                                                                                                     
+┌──(root㉿Kali)-[/home/venom/Downloads]
+└─# java VaultDoor1      
+Enter vault password: picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_a0e4eb}
+Access granted.
 ```
 <h3>Flag</h3>
 <pre>
-picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_ff63b0}
+picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_a0e4eb}
 </pre>
