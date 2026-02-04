@@ -44,7 +44,8 @@ for i in list_:
             time.sleep(5)
 print("}",end='')
 ```
+<label>Hasil = picoCTF{KODIAK_ALANKA}, dan final flag = picoCTF{KODIAK_ALASKA}</label>
 <h3>Flag</h3>
 <pre>
-picoCTF{KODIAK_ALANKA}
+picoCTF{KODIAK_ALASKA}
 </pre>
