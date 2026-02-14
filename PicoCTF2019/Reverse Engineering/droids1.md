@@ -21,16 +21,20 @@ I: Copying assets and libs...
 I: Copying unknown files...
 I: Copying original files...
 ```
+
+<label>Check alamat 0x7f0b002f di public.xml</label>
+```console
+┌──(root㉿Kali)-[/home/…/Downloads/one/res/values]
+└─# grep -iR '0x7f0b002f'      
+public.xml:    <public type="string" name="password" id="0x7f0b002f" />
+```
 <label>Check file string.xml di folder /res/values/res/values password = opossum</label>
 
 ```console
-<string name="hint">brute force not required</string>
-<string name="manatee">caribou</string>
-<string name="myotis">jackrabbit</string>
-<string name="password">opossum</string>
-<string name="porcupine">blackbuck</string>
-<string name="porpoise">mouflon</string>
-<string name="search_menu_title">Search</string>
+┌──(root㉿Kali)-[/home/…/Downloads/one/res/values]
+└─# grep -iR 'password'  
+strings.xml:    <string name="password">opossum</string>
+public.xml:    <public type="string" name="password" id="0x7f0b002f" />
 ```
 <label>Input password di emulator android studio</label>
 <h3>Flag</h3>
