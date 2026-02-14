@@ -35,5 +35,5 @@ I: Copying original files...
 <label>Input password di emulator android studio</label>
 <h3>Flag</h3>
 <pre>
-picoCTF{pining.for.the.jfords}
+picoCTF{pining.for.the.fjords}
 </pre>
