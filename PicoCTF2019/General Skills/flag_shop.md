@@ -5,6 +5,7 @@ There's a flag shop selling stuff, can you buy a flag?
 <a href='https://challenge-files.picoctf.net/c_fickle_tempest/00517bd6f4d62bae3c15297f6bf9305fc49253f0638e1c52580a02a1c8cbd8a7/store.c'>Source</a>. Connect with nc fickle-tempest.picoctf.net 64576.
 </pre>
 <h3>Solution</h3>
+<label>variabel account balance bisa terjadi integer overflow, kita cari nilai dari variabel total cost minus(negative)</label>
 
 ```console
 ┌──(root㉿Kali)-[/home/venom/Downloads]
