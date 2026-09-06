@@ -65,6 +65,11 @@ FLAG-U96l4k6m72a051GgE5EN0rA85499172K
 level1@jail-bash:~$ 
 ```
 <label>Escaping dengan input /bin/bash untuk memanggil shell, lalu cat file flag.txt dengan stderr, karena stdout tidak ada di bash script</label>
+<label>Command lain yang bekerja</label>
+
+```pre
+eval cat /home/level1/flag.txt 1>&2
+```
 <h3>Flag</h3>
 <pre>
 FLAG-U96l4k6m72a051GgE5EN0rA85499172K
