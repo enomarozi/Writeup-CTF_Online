@@ -64,7 +64,8 @@ level1@jail-bash:~$ cat flag.txt 1>&2
 FLAG-U96l4k6m72a051GgE5EN0rA85499172K
 level1@jail-bash:~$ 
 ```
-<label>Escaping dengan input /bin/bash untuk memanggil shell karena `...` merupakan command subtitusi cara lama, yang sekarang $($input) merupakan cara modren. Lalu cat file flag.txt dengan stderr, karena stdout tidak ada di bash script</label>
+<label>Escaping dengan input /bin/bash untuk memanggil shell karena \`...\` merupakan command subtitusi cara lama, yang sekarang $($input) merupakan cara modren. Lalu cat file flag.txt dengan stderr untuk menampilkan ke terminal</label>
+<br><br>
 <label>Command lain yang bekerja</label>
 
 ```pre
