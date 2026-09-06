@@ -68,7 +68,10 @@ level1@jail-bash:~$
 <label>Command lain yang bekerja</label>
 
 ```pre
-eval cat /home/level1/flag.txt 1>&2
+eval cat /home/level1/flag.txt 1>&2				: subtitusi command lalu eval eksekusi cat ke file flag dengan stderr
+bash -x *.sh									: eksekusi semua file bash, lalu menampilkan debug/trace termasuk file flag
+bash "flag.txt"									: eksekusi file flag.txt menjadi bash, yang otomatis memberikan error command not found, karena flag tidak cocok dengan command
+cat /home/level1/flag.txt 1>&0					: eksekusi cat ke file flag.txt dan output ke stdin
 ```
 <h3>Flag</h3>
 <pre>
